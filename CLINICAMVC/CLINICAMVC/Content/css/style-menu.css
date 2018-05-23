@@ -1,0 +1,67 @@
+﻿.contenedor-registro{
+    width:500px;
+    height:auto;
+    border:1px solid #b9b9b9 ;
+    border-radius:15px;
+    background:#d0d0d0;
+    margin:10px auto 10px;
+    padding:20px;
+}
+.frm-registro{
+    margin-top:10px;
+}
+.contenedor-menu{
+        
+    margin:10px auto 10px;
+    padding:20px;
+}
+.contenedor-menu div a{
+    text-decoration:none;
+    width:180px;
+    height:180px;
+}
+.contenedor-menu div img{
+    width:180px;
+    height:180px;
+    border-radius:8px;
+   
+}
+.consulta-usuario,.registro-usuario,.reporte-usuario,.Registro-citas,.Consultas-citas{
+    width:180px;
+    height:180px;
+    float:left;
+    position:relative;
+    margin:27px 45px 27px 45px;
+    border:#0094ff solid;
+    border-width:1px;
+    border-radius:8px;
+    overflow:hidden;
+}
+.consulta-usuario a:hover,.registro-usuario a:hover,.reporte-usuario a:hover,.Registro-citas a:hover,.Consultas-citas a:hover{   
+    opacity:0.2;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.consulta-usuario:hover{
+    background:url('../images/consultasusu.jpg');
+    border-radius:0.5em;
+}
+.registro-usuario:hover{
+    background:url('../images/registrous.jpg');
+    border-radius:0.5em;
+}
+.reporte-usuario:hover{
+    background:url('../images/reportesusu.jpg');
+    border-radius:0.5em;
+}
+ .Registro-citas:hover {
+     background:url('../images/registros-pa.png');
+     border-radius:0.5em;
+     
+    }
+    .Consultas-citas:hover {
+        background:url('../images/consultas-pa.jpg');
+        border-radius:0.5em;
+    }

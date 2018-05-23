@@ -1,0 +1,114 @@
+﻿@model IEnumerable<CLINICAMVC.Models.Especialidad>
+
+@{
+    
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ConsultaEspecialidad</title>
+    <style>
+        input[type="text"], input[type="submit"] {
+            margin: 10px 0px 10px 10px;
+        }
+
+        input[type="text"] {
+            width: 250px;
+            float: left;
+        }
+
+        .formulario a {
+            float: right;
+            margin-top: 15px;
+            margin-right: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        
+        <div class="formulario">
+            <div class="mensajes">
+                @if (ViewBag.Error != null)
+            {
+                    <span>@ViewBag.Error</span>
+                }
+            </div>
+            @using (Html.BeginForm())
+            {
+                <input type="text" class="form-control" name="especialidad" placeholder="Nombre de la Especialidad..." />
+                <input type="submit" value="Buscar" class="btn btn-primary" />
+                <a href="@Url.Action("CrearEspecialidad","Especialidad")" class="btn btn-info mr-2">Nueva Especialidad</a>
+            }
+        </div>
+        <div class="table-responsive">
+            <table class="table center-aligned-table">
+                <thead>
+                    <tr class="text-primary">
+                        <th>
+                            @Html.DisplayNameFor(model => model.DesEspecialidad)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.PreEspecialidad)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.EstEspecialidad)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DesEspecialidad)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.PreEspecialidad)
+                            </td>
+                            <td>
+                                @if (item.EstEspecialidad)
+                {
+                                    <span>Habilitado</span>
+                                }
+                                else
+                                {
+                                    <span>Deshabilitado</span>
+                                }
+                            </td>
+                            <td>
+                                @*<a href="#" data-toggle="modal" data-target="#myModal" class="btn btn-success">Editar</a>*@
+                                @Html.ActionLink("Editar", "ModificarEspecialidad", new { id = item.Id }, new { @class = "btn btn-outline-primary mr-2" }) 
+                                @*@Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                                @Html.ActionLink("Delete", "Delete", new { id = item.Id })*@
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+   
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

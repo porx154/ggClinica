@@ -1,0 +1,126 @@
+﻿@model IEnumerable<CLINICAMVC.Models.RegisterViewModel>
+
+@{
+    ViewBag.Title = "Consulta Usuarios";
+}
+<style>
+    input[type="text"], input[type="submit"] {
+        margin: 10px 0px 10px 10px;
+    }
+
+    input[type="text"] {
+        width: 250px;
+        float: left;
+    }
+    .formulario a{
+        float:right;
+        margin-top:15px;
+        margin-right:40px;
+        
+    }
+</style>
+    <h4>@ViewBag.Title</h4>
+    <div class="card">
+        <br />
+        <div class="formulario">
+            @using (Html.BeginForm())
+            {
+
+                <input type="text" name="buscar" autofocus placeholder="Nombre, Apellido o Dni..." class="form-control" />
+                <input type="submit" class="btn btn-primary" value="Buscar" />
+                <a href="@Url.Action("RegistroUsuario","Account")" class="btn btn-info mr-2">Nuevo Usuario</a>
+            }
+        </div>
+        <div class="table-responsive">
+            <table class="table center-aligned-table">
+                <thead>
+                    <tr class="text-primary">
+                        <th>
+                            @Html.DisplayNameFor(model => model.UserName)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.NomEmpleado)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ApeEmpleado)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DirEmpleado)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.CelEmpleado)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DniEmpleado)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.FecIngEmpleado)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.EstadoUsuario)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.UserRoles)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.UserName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.NomEmpleado)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ApeEmpleado)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DirEmpleado)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CelEmpleado)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DniEmpleado)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.FecIngEmpleado)
+                            </td>
+                            <td>
+                               
+                                @{
+                                    if (item.EstadoUsuario == true)
+                                    {
+                                        <span>Habilitado</span>
+                                    }
+                                    else
+                                    {
+                                        <span>Deshabilitado</span>
+                                    }
+                                }
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.UserRoles)
+                            </td>
+                            <td>
+                                @Html.ActionLink("Editar", "EditarUsuario","Account", new { id = item.Id },new { @class= "btn btn-outline-primary mr-2" }) 
+                                @Html.ActionLink("Contraseña", "CambiarConntrasena","Account", new { id = item.Id }, new { @class= "btn btn-outline-info mr-2" }) 
+                                @*@Html.ActionLink("Delete", "Delete", new { id = item.Id })*@
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+
+                
+
+            </table>
+            @*@Html.Partial("_LoginPartial")*@
+        </div>
+    </div>
+   
+    
+    

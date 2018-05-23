@@ -1,0 +1,77 @@
+﻿@model CLINICAMVC.Models.Especialidad
+
+@{
+   
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CrearEspecialidad</title>
+    <style>
+        .formulario{
+            margin-top:5px;
+        }
+        .form-group a{
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+    <h4>Registro Especialidad</h4>
+    <div class="card">
+        <div class="formulario">
+            <div class="mensajes">
+                @if (ViewBag.Error != null)
+                {
+                    <span>@ViewBag.Error</span>
+                }
+            </div>
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-horizontal">
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.DesEspecialidad, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.DesEspecialidad, new { htmlAttributes = new { @class = "form-control  label col-md-4" } })
+                            @Html.ValidationMessageFor(model => model.DesEspecialidad, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.PreEspecialidad, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.PreEspecialidad, new { htmlAttributes = new { @class = "form-control  label col-md-2" } })
+                            @Html.ValidationMessageFor(model => model.PreEspecialidad, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.EstEspecialidad, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            <div class="checkbox">
+                                @Html.EditorFor(model => model.EstEspecialidad)
+                                @Html.ValidationMessageFor(model => model.EstEspecialidad, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" value="Registrar" class="btn btn-primary" />
+                            <a href="@Url.Action("ConsultaEspecialidad","Especialidad")" class="btn btn-danger mr-2">Cancelar</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Menu Especialidad";
+
+}
+<h4>@ViewBag.Title</h4>
+<div class="card">
+    <div class="contenedor-menu">
+        <!--consutas especialidad-->
+        <div class="consulta-usuario">
+            <a href="@Url.Action("ConsultaEspecialidad","Especialidad")">
+                <img src="~/Content/images/consulta-usuario.png" />
+            </a>
+        </div>
+        <!--registro especialidad-->
+        <div class="registro-usuario">
+            <a href="@Url.Action("CrearEspecialidad","Especialidad")">
+                <img src="~/Content/images/registro-usuario-new.png" />
+            </a>
+        </div>
+        
+    </div>
+</div>

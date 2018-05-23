@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Menu Historial Paciente";
+
+}
+<h4>@ViewBag.Title</h4>
+<div class="card">
+    <div class="contenedor-menu">
+        <!--consutas-->
+        <div class="consulta-usuario">
+            <a href="@Url.Action("ConsultarHistorialPaciente","Paciente")">
+                <img src="~/Content/images/consulta-usuario.png" />
+            </a>
+        </div>
+        <!--registro-->
+        <div class="registro-usuario">
+            <a href="@Url.Action("CrearPaciente","Paciente")">
+                <img src="~/Content/images/registro-usuario-new.png" />
+            </a>
+        </div>
+      
+    </div>
+</div>

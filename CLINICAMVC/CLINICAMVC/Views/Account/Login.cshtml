@@ -1,0 +1,44 @@
+﻿@using CLINICAMVC.Models
+@model LoginViewModel
+@{
+    Layout = null;
+    ViewBag.Title = "Iniciar sesión";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login-Porx @ViewBag.Title</title>
+    <link href="~/Content/css/style-login.css" rel="stylesheet" />
+    
+</head>
+<body>
+    @using (Html.BeginForm("Login", "Account",new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-signin" }))
+    {
+        <div class="login">
+            <div class="text-danger">
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true, "")
+            </div>
+            <div class="text-danger">
+                @Html.TextBoxFor(m => m.UserName, new { Placeholder = "Usuario...", autofocus = "autofocus", Value = "" })
+                @Html.ValidationMessageFor(m => m.UserName, "")
+            </div>
+            <div class="text-danger">
+                @Html.PasswordFor(m => m.Password, new { Placeholder="Contraseña..." })
+                @Html.ValidationMessageFor(m => m.Password, "")
+            </div>
+            <div>
+                <input type="submit" name="login" class="botonlogin" value="Ingresar">
+            </div>
+            
+            
+        </div>
+    }
+
+</body>
+</html>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

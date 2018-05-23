@@ -1,0 +1,126 @@
+﻿@model IEnumerable<CLINICAMVC.Models.Paciente>
+
+@{
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ConsultarHistorialPaciente</title>
+    <style>
+        input[type="text"], input[type="submit"] {
+            margin: 10px 0px 10px 10px;
+        }
+
+        input[type="text"] {
+            width: 250px;
+            float: left;
+        }
+        .formulario a{
+        float:right;
+        margin-top:15px;
+        margin-right:40px;
+        
+    }
+    </style>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <div class="formulario">
+        <div class="mensajes">
+            @if(ViewBag.Error != null)
+            {
+            <span>@ViewBag.Error</span>
+            }
+        </div>
+        @using (Html.BeginForm())
+        {
+            
+            <input type="text" name="buscar" class="form-control" autofocus placeholder="Nombre, Apellido o DNI..." />
+            <input type="submit" value="Buscar" class="btn btn-primary" />
+            <a href="@Url.Action("CrearPaciente","Paciente")" class="btn btn-info mr-2">Nuevo Historial</a>
+        }
+    </div>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NomPaciente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ApePaciente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DirPaciente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DniPaciente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CelPaciente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sexo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GrupoSangre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AlePaciente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AntPaciente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FecNacPaciente)
+            </th>
+            <th></th>
+        </tr>
+
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomPaciente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ApePaciente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DirPaciente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DniPaciente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CelPaciente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sexo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GrupoSangre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AlePaciente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AntPaciente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FecNacPaciente)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "ModificarHistorialPaciente", new { id=item.Id },new { @class= "btn btn-outline-primary mr-2" } )
+                @*@Html.ActionLink("Details", "Details", new { id=item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.Id })*@
+            </td>
+        </tr>
+    }
+
+    </table>
+</body>
+</html>

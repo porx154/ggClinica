@@ -1,0 +1,131 @@
+﻿@model CLINICAMVC.Models.Paciente
+
+@{
+    ViewBag.Title = "Actualizar Historial";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ModificarHistorialPaciente</title>
+    <style>
+        .frm-registro a {
+            padding: 10px;
+        }
+
+        .frm-registro {
+            margin-left: 15px;
+        }
+    </style>
+</head>
+<body>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+    <h4>@ViewBag.Title</h4>
+    <div class="card">
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @Html.HiddenFor(model => model.Id)
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.NomPaciente, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.NomPaciente, new { htmlAttributes = new { @class = "form-control label col-md-3" } })
+                        @Html.ValidationMessageFor(model => model.NomPaciente, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ApePaciente, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.ApePaciente, new { htmlAttributes = new { @class = "form-control label col-md-3" } })
+                        @Html.ValidationMessageFor(model => model.ApePaciente, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.DirPaciente, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.DirPaciente, new { htmlAttributes = new { @class = "form-control label col-md-5" } })
+                        @Html.ValidationMessageFor(model => model.DirPaciente, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.DniPaciente, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.DniPaciente, new { htmlAttributes = new { @class = "form-control label col-md-3", disabled = "disabled" } })
+                        @Html.ValidationMessageFor(model => model.DniPaciente, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CelPaciente, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.CelPaciente, new { htmlAttributes = new { @class = "form-control label col-md-3" } })
+                        @Html.ValidationMessageFor(model => model.CelPaciente, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.EmailPaciente, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.EmailPaciente, new { htmlAttributes = new { @class = "form-control label col-md-5" } })
+                        @Html.ValidationMessageFor(model => model.EmailPaciente, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.AlePaciente, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.AlePaciente, new { htmlAttributes = new { @class = "form-control label col-md-8", disabled = "disabled" } })
+                        @Html.ValidationMessageFor(model => model.AlePaciente, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.AntPaciente, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.AntPaciente, new { htmlAttributes = new { @class = "form-control label col-md-8", disabled = "disabled" } })
+                        @Html.ValidationMessageFor(model => model.AntPaciente, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.FecNacPaciente, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.FecNacPaciente, new { htmlAttributes = new { @class = "form-control", disabled = "disabled" } })
+                        @Html.ValidationMessageFor(model => model.FecNacPaciente, "", new { @class = "text-danger" })
+                    </div>
+                </div><div class="form-group">
+                    @Html.LabelFor(model => model.Sexo, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EnumDropDownListFor(model => model.Sexo, new { disabled = "disabled", @class= "form-control label col-md-3" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.GrupoSangre, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EnumDropDownListFor(model => model.GrupoSangre, new { disabled = "disabled", @class = "form-control label col-md-3"})
+
+                    </div>
+                </div>
+                <div class="frm-registro">
+                    <input type="submit" value="Guardar Historial" class="btn btn-primary mr-2" />
+                    <a href="@Url.Action("ConsultarHistorialPaciente","Paciente")" class="btn btn-danger mr-2">Cancelar</a>
+                </div>
+            </div>
+        }
+    </div>
+    
+    
+</body>
+</html>

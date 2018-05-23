@@ -1,0 +1,409 @@
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\ApplicationInsights.config
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\roslyn\csc.exe
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\roslyn\System.Collections.Immutable.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\roslyn\vbc.exe
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\roslyn\VBCSCompiler.exe
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\roslyn\VBCSCompiler.exe.config
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\CLINICAMVC.dll.config
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\CLINICAMVC.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\CLINICAMVC.pdb
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Antlr3.Runtime.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\EntityFramework.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\EntityFramework.SqlServer.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.Web.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.WindowsServer.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.ApplicationInsights.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Google.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.Web.Infrastructure.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Newtonsoft.Json.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Owin.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\System.Web.Helpers.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\System.Web.Mvc.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\System.Web.Optimization.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\System.Web.Razor.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\System.Web.WebPages.Deployment.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\System.Web.WebPages.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\System.Web.WebPages.Razor.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\WebGrease.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.Web.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.WindowsServer.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.ApplicationInsights.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\System.Web.Helpers.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\System.Web.Mvc.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\System.Web.Optimization.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\System.Web.Razor.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\System.Web.WebPages.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\System.Web.WebPages.Deployment.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\System.Web.WebPages.Razor.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Antlr3.Runtime.pdb
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Newtonsoft.Json.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\EntityFramework.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\EntityFramework.SqlServer.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Google.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\es\System.Web.Helpers.resources.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\es\System.Web.Mvc.resources.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\es\System.Web.Optimization.resources.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\es\System.Web.Razor.resources.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\es\System.Web.WebPages.resources.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\es\System.Web.WebPages.Razor.resources.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\es\EntityFramework.resources.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\es\EntityFramework.SqlServer.resources.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.resources.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.Security.resources.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.Security.Google.resources.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\obj\Debug\CLINICAMVC.csprojResolveAssemblyReference.cache
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\obj\Debug\CLINICAMVC.dll
+c:\users\porx_\onedrive\documentos\visual studio 2015\Projects\CLINICAMVC\CLINICAMVC\obj\Debug\CLINICAMVC.pdb
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\ApplicationInsights.config
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\roslyn\csc.exe
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\roslyn\vbc.exe
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\CLINICAMVC.dll.config
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\CLINICAMVC.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\CLINICAMVC.pdb
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Antlr3.Runtime.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\EntityFramework.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.Web.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Newtonsoft.Json.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Owin.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\System.Web.Helpers.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\System.Web.Mvc.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\System.Web.Optimization.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\System.Web.Razor.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\System.Web.WebPages.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\WebGrease.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.Web.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\System.Web.Helpers.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\System.Web.Mvc.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\System.Web.Optimization.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\System.Web.Razor.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\System.Web.WebPages.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Antlr3.Runtime.pdb
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Newtonsoft.Json.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\EntityFramework.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\es\System.Web.Helpers.resources.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\es\System.Web.Mvc.resources.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\es\System.Web.Optimization.resources.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\es\System.Web.Razor.resources.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\es\System.Web.WebPages.resources.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\es\EntityFramework.resources.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.resources.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\obj\Debug\CLINICAMVC.csprojResolveAssemblyReference.cache
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\obj\Debug\CLINICAMVC.dll
+C:\Users\porx_\Source\Repos\gg\CLINICAMVC\CLINICAMVC\obj\Debug\CLINICAMVC.pdb
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\ApplicationInsights.config
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\roslyn\csc.exe
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\roslyn\vbc.exe
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\CLINICAMVC.dll.config
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\CLINICAMVC.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\CLINICAMVC.pdb
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Antlr3.Runtime.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\EntityFramework.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.Web.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Newtonsoft.Json.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Owin.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\System.Web.Helpers.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\System.Web.Mvc.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\System.Web.Optimization.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\System.Web.Razor.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\System.Web.WebPages.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\WebGrease.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.Web.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\System.Web.Helpers.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\System.Web.Mvc.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\System.Web.Optimization.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\System.Web.Razor.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\System.Web.WebPages.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Antlr3.Runtime.pdb
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Newtonsoft.Json.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\EntityFramework.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\es\System.Web.Helpers.resources.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\es\System.Web.Mvc.resources.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\es\System.Web.Optimization.resources.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\es\System.Web.Razor.resources.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\es\System.Web.WebPages.resources.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\es\EntityFramework.resources.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.resources.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\obj\Debug\CLINICAMVC.csprojResolveAssemblyReference.cache
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\obj\Debug\CLINICAMVC.dll
+C:\Users\porx_\Desktop\CLINICAMVC\CLINICAMVC\obj\Debug\CLINICAMVC.pdb
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\ApplicationInsights.config
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\roslyn\csc.exe
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\roslyn\System.Collections.Immutable.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\roslyn\System.Reflection.Metadata.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\roslyn\vbc.exe
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\roslyn\VBCSCompiler.exe
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\roslyn\VBCSCompiler.exe.config
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\CLINICAMVC.dll.config
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\CLINICAMVC.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\CLINICAMVC.pdb
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Antlr3.Runtime.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\EntityFramework.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\EntityFramework.SqlServer.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.Agent.Intercept.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.DependencyCollector.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.Web.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.WindowsServer.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.ApplicationInsights.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.AspNet.Identity.Core.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Cookies.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Facebook.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Google.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.OAuth.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Twitter.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.Web.Infrastructure.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Newtonsoft.Json.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Owin.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\System.Web.Helpers.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\System.Web.Mvc.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\System.Web.Optimization.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\System.Web.Razor.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\System.Web.WebPages.Deployment.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\System.Web.WebPages.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\System.Web.WebPages.Razor.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\WebGrease.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.DependencyCollector.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.Web.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.AI.WindowsServer.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.ApplicationInsights.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\System.Web.Helpers.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\System.Web.Mvc.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\System.Web.Optimization.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\System.Web.Razor.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\System.Web.WebPages.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\System.Web.WebPages.Deployment.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\System.Web.WebPages.Razor.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Antlr3.Runtime.pdb
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Newtonsoft.Json.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\EntityFramework.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\EntityFramework.SqlServer.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.AspNet.Identity.Core.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Facebook.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Cookies.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.OAuth.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Google.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.Twitter.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\es\System.Web.Helpers.resources.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\es\System.Web.Mvc.resources.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\es\System.Web.Optimization.resources.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\es\System.Web.Razor.resources.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\es\System.Web.WebPages.resources.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\es\EntityFramework.resources.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\es\EntityFramework.SqlServer.resources.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.resources.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.Security.resources.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.Security.Google.resources.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\obj\Debug\CLINICAMVC.dll
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\obj\Debug\CLINICAMVC.pdb
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\obj\Debug\CLINICAMVC.Migrations.ConsultorioMedico.resources
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\obj\Debug\CLINICAMVC.csproj.GenerateResource.Cache
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\obj\Debug\CLINICAMVC.Migrations.CM1.resources
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\obj\Debug\CLINICAMVC.Migrations.dnimedicoconsultorio.resources
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\obj\Debug\CLINICAMVC.Migrations.Consultorio.resources
+E:\PROYECTO DESA MVC\CLINICAMVC\CLINICAMVC\obj\Debug\CLINICAMVC.csprojResolveAssemblyReference.cache

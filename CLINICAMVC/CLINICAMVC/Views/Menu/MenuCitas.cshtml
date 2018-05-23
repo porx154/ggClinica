@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Menu Citas";
+
+}
+<h4>@ViewBag.Title</h4>
+
+<div class="card">
+    menu
+    <div class="contenedor-menu">
+        citas pacientes
+        <div class="Registro-citas">
+            <a href="@Url.Action("RegistrosCita","Citas")">
+                <img src="~/Content/images/registros-pa.png" />
+
+            </a>
+
+        </div>
+
+        <div class="Consultas-citas">
+            <a href="@Url.Action("ConsultasCita","")">
+                <img src="~/Content/images/consultas-pa.jpg" />
+
+            </a>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Menu Medico - Consultorio";
+
+}
+<h4>@ViewBag.Title</h4>
+<div class="card">
+    <div class="contenedor-menu">
+        <!--consutas medico-->
+        <div class="consulta-usuario">
+            <a href="@Url.Action("ConsultarMedicoConsultorio","MedicoConsultorio")">
+                <img src="~/Content/images/consulta-usuario.png" />
+            </a>
+        </div>
+        <!--registro medico-->
+        <div class="registro-usuario">
+            <a href="@Url.Action("CrearMedicoConsultorio","MedicoConsultorio")">
+                <img src="~/Content/images/registro-usuario-new.png" />
+            </a>
+        </div>
+        <!--consultorio-->
+        <div class="reporte-usuario">
+            <a href="#">
+                <img src="~/Content/images/reporte-usuario-new.jpg" />
+            </a>
+        </div>
+    </div>
+</div>

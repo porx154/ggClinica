@@ -1,0 +1,133 @@
+﻿@model CLINICAMVC.Models.Medico
+
+@{
+    
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ModificarMedicoConsultorio</title>
+    <style>
+        .form-group a{
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+    <h4>Actualizar Medico - Consultorio</h4>
+    <div class="card">
+        @if(ViewBag.Error != null)
+        {
+            <span>@ViewBag.Error</span>
+        }
+        <div class="card-body">
+            @using (Html.BeginForm("ModificarMedicoConsultorio", "MedicoConsultorio", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "forms-sample" }))
+            {
+                @Html.AntiForgeryToken()
+               
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @Html.HiddenFor(model => model.Id)
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.NombMedico, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.NombMedico, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.NombMedico, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ApeMedico, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.ApeMedico, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.ApeMedico, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.DirMedico, htmlAttributes: new { @class = "control-label col-md-3" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.DirMedico, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.DirMedico, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CelMedico, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.CelMedico, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.CelMedico, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.EmailMedico, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.EmailMedico, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.EmailMedico, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.FecIngMedico, htmlAttributes: new { @class = "control-label col-md-5" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.FecIngMedico, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.FecIngMedico, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.FecNacMedico, htmlAttributes: new { @class = "control-label col-md-5" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.FecNacMedico, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.FecNacMedico, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.DniMedico, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.DniMedico, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.DniMedico, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                @* foreaneas *@
+                <div class="form-group">
+                    @Html.LabelFor(model => model.EspecialidadId, htmlAttributes: new { @class = "control-label col-md-4" })
+                    <div class="col-md-10">
+                        @*@Html.EditorFor(model => model.EspecialidadId, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.EspecialidadId, "", new { @class = "text-danger" })*@
+                        @Html.DropDownList("EspecialidadId", (SelectList)ViewBag.Meespe)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ConsultorioId, htmlAttributes: new { @class = "control-label col-md-4" })
+                    <div class="col-md-10">
+                        @*@Html.EditorFor(model => model.ConsultorioId, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.ConsultorioId, "", new { @class = "text-danger" })*@
+                        @Html.DropDownList("ConsultorioId", (SelectList)ViewBag.MeConsul)
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Guardar" class="btn btn-primary" />
+                        <a href="@Url.Action("ConsultarMedicoConsultorio","MedicoConsultorio")" class="btn btn-danger mr-2">Cancelar</a>
+                    </div>
+                </div>
+
+            }
+        </div>
+    </div>
+    
+</body>
+</html>

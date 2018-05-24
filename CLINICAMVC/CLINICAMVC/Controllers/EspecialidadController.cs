@@ -21,15 +21,7 @@ namespace CLINICAMVC.Controllers
         {
             try
             {
-                if (!ModelState.IsValid) return View();
-                var espe = new EspecialidadPorx(_context);
-                var busqueda = espe.BuscarEspecialidad(especialidad);
-                if (busqueda.Count() == 0)
-                {
-                    ViewBag.Error = "Lo sentimos no se encontro especialidad";
-                    return View(espe.ListarEspecialidad());
-                }
-                return View(busqueda);
+                
             }
             catch (Exception ex)
             {

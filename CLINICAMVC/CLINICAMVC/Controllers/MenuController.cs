@@ -30,10 +30,13 @@ namespace CLINICAMVC.Controllers
         {
             return View();
         }
+
+        [PorxAuthorize(Roles = "Jefe-Personal")]
         public ActionResult MenuConsultorioMedico()
         {
             return View();
         }
+        [PorxAuthorize(Roles = "Jefe-Personal")]
         public ActionResult MenuEspecialidad()
         {
             return View();

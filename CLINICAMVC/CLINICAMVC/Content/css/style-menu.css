@@ -26,7 +26,7 @@
     border-radius:8px;
    
 }
-.consulta-usuario,.registro-usuario,.reporte-usuario,.Registro-citas,.Consultas-citas{
+.consulta-usuario,.registro-usuario,.reporte-usuario,.Registro-citas,.Consultas-citas,.consulta-medico{
     width:180px;
     height:180px;
     float:left;
@@ -37,7 +37,7 @@
     border-radius:8px;
     overflow:hidden;
 }
-.consulta-usuario a:hover,.registro-usuario a:hover,.reporte-usuario a:hover,.Registro-citas a:hover,.Consultas-citas a:hover{   
+.consulta-usuario a:hover,.registro-usuario a:hover,.reporte-usuario a:hover,.Registro-citas a:hover,.Consultas-citas a:hover,.consulta-medico a:hover{   
     opacity:0.2;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
@@ -56,12 +56,17 @@
     background:url('../images/reportesusu.jpg');
     border-radius:0.5em;
 }
- .Registro-citas:hover {
+.Registro-citas:hover {
      background:url('../images/registros-pa.png');
      border-radius:0.5em;
      
-    }
-    .Consultas-citas:hover {
+}
+.Consultas-citas:hover {
         background:url('../images/consultas-pa.jpg');
         border-radius:0.5em;
-    }
+
+}
+.consulta-medico:hover{
+    background:url('../images/consultasusu.jpg');
+        border-radius:0.5em;
+}

@@ -1,4 +1,5 @@
 ﻿using CLINICAMVC.Models;
+using CLINICAMVC.Models.AnnotationsHelpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,6 +8,7 @@ using System.Web.Mvc;
 
 namespace CLINICAMVC.Controllers
 {
+    [PorxAuthorize(Roles = "Jefe-Personal")]
     public class EspecialidadController : Controller
     {
         private readonly ApplicationDbContext _context = ApplicationDbContext.Create();

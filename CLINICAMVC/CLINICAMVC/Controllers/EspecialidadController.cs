@@ -75,7 +75,13 @@ namespace CLINICAMVC.Controllers
         {
             try
             {
-                
+                var espe = new EspecialidadPorx(_context);
+                var modespecialidad = espe.ModificarEspecialidad(especialidad);
+                if (!modespecialidad)
+                {
+                    ViewBag.Error = "No se pudo actualizar Especialidad";
+                }
+                return RedirectToAction("ConsultaEspecialidad", "Especialidad");
             }
             catch (Exception ex)
             {

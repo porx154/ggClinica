@@ -72,29 +72,7 @@ namespace CLINICAMVC.Models
         {
             try
             {
-                if (idespecialidad == null ||idespecialidad=="") return ListarMedicoConsultorio();
-                int convertirid = int.Parse(idespecialidad);
-                var listarmedico = Context.Medico.Where(x => x.EspecialidadId== convertirid).ToList();
-                var listarbusqueda = new List<Medico>();
-                foreach(var item in listarmedico)
-                {
-                    var nuevabusqueda = new Medico()
-                    {
-                        Id = item.Id,
-                        NombMedico = item.NombMedico,
-                        ApeMedico = item.ApeMedico,
-                        DirMedico = item.DirMedico,
-                        CelMedico = item.CelMedico,
-                        EmailMedico = item.EmailMedico,
-                        FecIngMedico = item.FecIngMedico,
-                        FecNacMedico = item.FecNacMedico,
-                        DniMedico = item.DniMedico,
-                        NomEspecialidad = ListarEspecialidadID(item.EspecialidadId).DesEspecialidad,
-                        NomConsultorio = ListarConsultorioId(item.ConsultorioId).DesConsultorio
-                    };
-                    listarbusqueda.Add(nuevabusqueda);
-                }
-                return listarbusqueda;
+                
             }
             catch (Exception ex)
             {

@@ -11,11 +11,6 @@ namespace CLINICAMVC.Models
         public ConsultorioPorx(ApplicationDbContext context) : base(context)
         {
         }
-        public SelectList LstCmbConsultorio()
-        {
-            var cp = Context.Consultorio.ToList();
-            SelectList lstconsul = new SelectList(cp, "Id", "DesConsultorio");
-            return lstconsul;
-        }
+        
     }
 }

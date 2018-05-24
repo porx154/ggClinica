@@ -49,9 +49,7 @@ namespace CLINICAMVC.Models
 
     public class LoginViewModel
     {
-        [Required(ErrorMessage = "El campo {0} es Obligatorio")]
-        [Display(Name = "Nombre de Usuario")]
-        public string UserName { get; set; }
+       
         [Required]
         [DataType(DataType.Password)]
         [Display(Name = "Contraseña")]

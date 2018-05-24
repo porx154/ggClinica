@@ -16,6 +16,11 @@ namespace CLINICAMVC.Models
             try
             {
                 //aqui va codigo
+                if (paciente == null) return false;
+                var pacienterepe = BuscarPacienteDNI(paciente.DniPaciente);
+                if (pacienterepe != null) return false;
+                Context.Paciente.Add(paciente);
+                Context.SaveChanges();
                 return true;
                 //if (pacienterepe != null)
                 //{

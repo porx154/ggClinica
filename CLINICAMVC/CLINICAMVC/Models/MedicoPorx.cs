@@ -28,6 +28,7 @@ namespace CLINICAMVC.Models
         {
             try
             {
+                //busqueda de medico por dni
                 if (medico == null) return false;
                 var buscardni = BuscarMedicoDNI(medico.DniMedico);
                 if (buscardni != null) return false;

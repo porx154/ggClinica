@@ -15,6 +15,7 @@ namespace CLINICAMVC.Models
         {
             try
             {
+                //codigo de validacion de dni paciente
                 if (paciente == null) return false;
                 var pacienterepe = BuscarPacienteDNI(paciente.DniPaciente);
                 if (pacienterepe != null) return false;

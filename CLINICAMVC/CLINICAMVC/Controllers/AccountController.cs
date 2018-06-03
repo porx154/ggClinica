@@ -134,7 +134,13 @@ namespace CLINICAMVC.Controllers
                     return View(model);
             }
         }
+        [PorxAuthorize(Roles = "Administrador")]
+        public ActionResult CambiarConntrasena()
+        {
+            return View();
+        }
         [PorxAuthorize(Roles ="Administrador")]
+        [HttpPost]
         public ActionResult CambiarConntrasena(string id,RegisterViewModel model)
         {
             try

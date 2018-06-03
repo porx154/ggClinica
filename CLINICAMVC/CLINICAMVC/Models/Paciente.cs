@@ -7,7 +7,7 @@ using System.Web;
 
 namespace CLINICAMVC.Models
 {
-    public class Paciente
+    public class Paciente:IValidatableObject
     {
         public int Id { get; set; }
 
@@ -50,7 +50,7 @@ namespace CLINICAMVC.Models
         public double PesoPaciente { get; set; }
 
         [Required(ErrorMessage ="El campo {0} es obligatorio")]
-        [Display(Name ="Altura")]
+        [Display(Name ="Estatura")]
         public double AlturaPaciente { get; set; }
         
         public Sexo Sexo { get; set; }
@@ -63,11 +63,12 @@ namespace CLINICAMVC.Models
 
         [Display(Name = "Alergias del Paciente")]
         [StringLength(200)]
-       
+        [DataType(DataType.MultilineText)]       
         public string AlePaciente { get; set; }
 
         [Display(Name ="Antecedentes del Paciente")]
         [StringLength(200)]
+        [DataType(DataType.MultilineText)]
         public string AntPaciente { get; set; }
 
         [Display(Name = "Fecha de Nacimiento")]
@@ -75,7 +76,18 @@ namespace CLINICAMVC.Models
         [DataType(DataType.Date, ErrorMessage = "El campo {0} es una fecha")]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime FecNacPaciente { get; set; }
-        
+
+        public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
+        {
+            //int edadFecNac = DateTime.Now.Year - FecNacPaciente.Year;
+            var listerror = new List<ValidationResult>();
+            if (EdadPaciente != (DateTime.Now.Year - FecNacPaciente.Year))
+            {
+                listerror.Add(new ValidationResult("Fecha de Nacimiento y edad Deben Coincidir", new string[] { "FecNacPaciente" }));
+            }
+            //throw new NotImplementedException();
+            return listerror;
+        }
     }
    
 }

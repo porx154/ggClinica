@@ -1,7 +1,7 @@
 ﻿@model CLINICAMVC.Models.RegisterViewModel
 <!DOCTYPE html>
 @{ 
-    ViewBag.Title = "Registro de Usuarios";
+    ViewBag.Title = "Nuevo de Usuario";
 }
 <html>
 <head>
@@ -18,24 +18,25 @@
     @Scripts.Render("~/bundles/jqueryval")
     <h4>@ViewBag.Title</h4>
     <div class="card">
-        <div class="contenedor-registro">
-            @using (Html.BeginForm())
+        <div class="mensajes">
+            @if (ViewBag.Error != null)
+            {
+                <span>@ViewBag.Error</span>
+            }
+        </div>
+        <div class="card-body">
+            @using (Html.BeginForm("RegistroUsuario", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "forms-sample" }))
             {
                 @Html.AntiForgeryToken()
-                <div class="mensajes">
-                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-                    @if(ViewBag.Error != null)
-                    {
-                        <span>@ViewBag.Error</span>
-                    }
-                </div>
-                    <div class="frm-registro">
-                        @Html.LabelFor(model => model.UserName, htmlAttributes: new { @class = "" })
-                        <div>
-                            @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "form-control" } })
-                            @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
-                        </div>
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.UserName, htmlAttributes: new { @class = "" })
+                    <div>
+                        @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
                     </div>
+                </div>
 
                     <div class="form-group">
                         @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "" })
@@ -117,31 +118,33 @@
                         </div>
                     </div>
 
-                    <div class="frm-registro">
-                       @Html.LabelFor(model => model.EstadoUsuario, htmlAttributes: new { @class = "" })
-                        
-                            <div class="form-check">
-                                @Html.EditorFor(model => model.EstadoUsuario)
-                                @Html.ValidationMessageFor(model => model.EstadoUsuario, "", new { @class = "text-danger" })
-                            </div>
-                        
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.EstadoUsuario, htmlAttributes: new { @class = "" })
+
+                        <div class="form-check">
+                            @Html.EditorFor(model => model.EstadoUsuario)
+                            @Html.ValidationMessageFor(model => model.EstadoUsuario, "", new { @class = "text-danger" })
+                        </div>
+
                     </div>
 
                     <div class="form-group">
                         @Html.LabelFor(model => model.UserRoles, htmlAttributes: new { @class = "" })
                         <div>
-                            @Html.DropDownList("UserRoles",(SelectList)ViewBag.Roles,new { @class="form-control" })
+                            @Html.DropDownList("UserRoles", (SelectList)ViewBag.Roles, new { @class = "form-control" })
                         </div>
                     </div>
-
-                    <div class="frm-registro">
+                    <div class="form-group"></div>
+                    <div class="form-group">
                         <input type="submit" value="Registrar" class="btn btn-primary mr-2" />
                         <a href="@Url.Action("ConsultaUsuario","Usuario")" class="btn btn-danger mr-2">Cancelar</a>
-               
+
                     </div>
-                
+
             }
         </div>
+            
+     
     </div>
     
    

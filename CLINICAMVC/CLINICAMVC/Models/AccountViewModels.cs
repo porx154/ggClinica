@@ -61,7 +61,7 @@ namespace CLINICAMVC.Models
 
     }
 
-    public class RegisterViewModel
+    public class RegisterViewModel:IValidatableObject
     {
         public string Id { get; set; }
 
@@ -129,7 +129,20 @@ namespace CLINICAMVC.Models
         [Display(Name ="Rol")]
         public string UserRoles { get; set; }
 
-   
+        public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
+        {
+            var listerror = new List<ValidationResult>();
+            if((DateTime.Now.Year - FecNacEmpleado.Year) < 18)
+            {
+                listerror.Add(new ValidationResult("Debe ser Mayor de Edad", new string[] { "FecNacEmpleado" }));
+            }
+            if (FecIngEmpleado < FecNacEmpleado)
+            {
+                listerror.Add(new ValidationResult("La Fecha de Ingreso debe ser Mayor a Fecha de Nacimiento", new string[] { "FecIngEmpleado" }));
+            }
+            return listerror;
+            //throw new NotImplementedException();
+        }
     }
     public class ResetPasswordViewModel
     {

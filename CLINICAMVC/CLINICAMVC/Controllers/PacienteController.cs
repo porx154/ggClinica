@@ -24,6 +24,11 @@ namespace CLINICAMVC.Controllers
         //    ViewBag.ListaSangre = listaSangre.GrupoSanguineo();
         //    return View();
         //}
+        public ActionResult CrearPaciente()
+        {
+            return View();
+        }
+        [HttpPost]
         public ActionResult CrearPaciente(Paciente paciente)
         {
             try
@@ -89,6 +94,14 @@ namespace CLINICAMVC.Controllers
                 ModelState.AddModelError("Error al actualizar Historial Paciente", ex);
                 throw;
             }
+        }
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                _context.Dispose();
+            }
+            base.Dispose(disposing);
         }
     }
 }

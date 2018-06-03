@@ -7,7 +7,7 @@ using System.Web;
 
 namespace CLINICAMVC.Models
 {
-    public class Medico
+    public class Medico:IValidatableObject
     {
         public int Id { get; set; }
         [Required(ErrorMessage ="El campo {0} es obligatorio")]
@@ -65,5 +65,15 @@ namespace CLINICAMVC.Models
         [NotMapped]
         [Display(Name = "Consultorio")]
         public string NomConsultorio { get; set; }
+
+        public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
+        {
+            var listerror = new List<ValidationResult>();
+            if (FecIngMedico < FecNacMedico)
+            {
+                listerror.Add(new ValidationResult("La Fecha de Ingreso debe ser Mayor a Fecha de Nacimiento", new string[] { "FecIngMedico" }));
+            }
+            return listerror;
+        }
     }
 }

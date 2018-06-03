@@ -28,99 +28,126 @@
     </style>
 </head>
 <body>
-    <p>
-        @Html.ActionLink("Create New", "Create")
-    </p>
-    <div class="formulario">
-        <div class="mensajes">
-            @if(ViewBag.Error != null)
+    <div class="card">
+        <div class="formulario">
+            <div class="mensajes">
+                @if (ViewBag.Error != null)
+                {
+                    <span>@ViewBag.Error</span>
+                }
+            </div>
+            @using (Html.BeginForm())
             {
-            <span>@ViewBag.Error</span>
+
+                <input type="text" name="buscar" class="form-control" autofocus placeholder="Nombre, Apellido o DNI..." />
+                <input type="submit" value="Buscar" class="btn btn-primary" />
+                <a href="@Url.Action("CrearPaciente","Paciente")" class="btn btn-info mr-2">Nuevo Historial</a>
             }
         </div>
-        @using (Html.BeginForm())
-        {
-            
-            <input type="text" name="buscar" class="form-control" autofocus placeholder="Nombre, Apellido o DNI..." />
-            <input type="submit" value="Buscar" class="btn btn-primary" />
-            <a href="@Url.Action("CrearPaciente","Paciente")" class="btn btn-info mr-2">Nuevo Historial</a>
-        }
+        <div class="table-responsive">
+            <table class="table center-aligned-table">
+                <thead>
+                    <tr class="text-primary">
+                        <th>
+                            @Html.DisplayNameFor(model => model.NomPaciente)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ApePaciente)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DirPaciente)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DniPaciente)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.CelPaciente)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Sexo)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.GrupoSangre)
+                        </th>
+                        @*<th>
+                            @Html.DisplayNameFor(model => model.AlePaciente)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.AntPaciente)
+                        </th>*@
+                        <th>
+                            @Html.DisplayNameFor(model => model.EdadPaciente)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.PesoPaciente)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.AlturaPaciente)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.FecNacPaciente)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.NomPaciente)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ApePaciente)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DirPaciente)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DniPaciente)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CelPaciente)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Sexo)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.GrupoSangre)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.EdadPaciente)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.PesoPaciente)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.AlturaPaciente)
+                            </td>
+                            @*<td>
+                                @Html.DisplayFor(modelItem => item.AlePaciente)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.AntPaciente)
+                            </td>*@
+                            <td>
+                                @Html.DisplayFor(modelItem => item.FecNacPaciente)
+                            </td>
+                            <td>
+                                @Html.ActionLink("Editar", "ModificarHistorialPaciente", new { id = item.Id }, new { @class = "btn btn-outline-primary mr-2" })
+                                @*@Html.ActionLink("Details", "Details", new { id=item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.Id })*@
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+
+                
+
+            </table>
+        </div>
     </div>
-    <table class="table">
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.NomPaciente)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ApePaciente)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DirPaciente)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DniPaciente)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CelPaciente)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Sexo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.GrupoSangre)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AlePaciente)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AntPaciente)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FecNacPaciente)
-            </th>
-            <th></th>
-        </tr>
-
-    @foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.NomPaciente)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ApePaciente)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DirPaciente)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DniPaciente)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CelPaciente)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Sexo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.GrupoSangre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AlePaciente)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AntPaciente)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FecNacPaciente)
-            </td>
-            <td>
-                @Html.ActionLink("Editar", "ModificarHistorialPaciente", new { id=item.Id },new { @class= "btn btn-outline-primary mr-2" } )
-                @*@Html.ActionLink("Details", "Details", new { id=item.Id }) |
-                @Html.ActionLink("Delete", "Delete", new { id=item.Id })*@
-            </td>
-        </tr>
-    }
-
-    </table>
+    
+    
 </body>
 </html>

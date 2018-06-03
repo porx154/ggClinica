@@ -261,6 +261,7 @@
     <Content Include="Content\images\consulta-especialidad.jpg" />
     <Content Include="Content\images\consulta-medico-fondo.jpg" />
     <Content Include="Content\images\consulta-medicos.jpg" />
+    <Content Include="Content\images\consulta-pacientes.jpg" />
     <Content Include="Content\images\consulta-usuario.png" />
     <Content Include="Content\images\consultas-pa.jpg" />
     <Content Include="Content\images\consultasusu.jpg" />
@@ -470,6 +471,7 @@
     <Content Include="Content\images\mariana.jpg" />
     <Content Include="Content\images\profile.jpg" />
     <Content Include="Content\images\registro-especialidad.jpg" />
+    <Content Include="Content\images\registro-hpacientes.jpg" />
     <Content Include="Content\images\registro-medico.jpg" />
     <Content Include="Content\images\registro-usuario-new.png" />
     <Content Include="Content\images\registro-usuario.png" />

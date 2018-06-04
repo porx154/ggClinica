@@ -39,7 +39,7 @@ namespace CLINICAMVC.Models.AnnotationsHelpers
             }
             else
             {
-                filterContext.Result = new RedirectToRouteResult(new RouteValueDictionary(new { controller = "Account", action = "Login" }));
+                filterContext.Result = new RedirectToRouteResult(new RouteValueDictionary(new { controller = "AccesoDenegado", action = "Denegado" }));
             }
         }
 

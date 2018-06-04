@@ -28,7 +28,6 @@ namespace CLINICAMVC.Models
         {
             try
             {
-                //busqueda de medico por dni
                 if (medico == null) return false;
                 var buscardni = BuscarMedicoDNI(medico.DniMedico);
                 if (buscardni != null) return false;
@@ -72,11 +71,11 @@ namespace CLINICAMVC.Models
         {
             try
             {
-                if (idespecialidad == null || idespecialidad == "") return ListarMedicoConsultorio();
+                if (idespecialidad == null ||idespecialidad=="") return ListarMedicoConsultorio();
                 int convertirid = int.Parse(idespecialidad);
-                var listarmedico = Context.Medico.Where(x => x.EspecialidadId == convertirid).ToList();
+                var listarmedico = Context.Medico.Where(x => x.EspecialidadId== convertirid).ToList();
                 var listarbusqueda = new List<Medico>();
-                foreach (var item in listarmedico)
+                foreach(var item in listarmedico)
                 {
                     var nuevabusqueda = new Medico()
                     {

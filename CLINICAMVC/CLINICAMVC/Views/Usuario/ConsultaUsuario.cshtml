@@ -26,8 +26,8 @@
             @using (Html.BeginForm())
             {
 
-                <input type="text" name="buscar" autofocus placeholder="Nombre, Apellido o Dni..." class="form-control" />
-                <input type="submit" class="btn btn-primary" value="Buscar" />
+                <input type="text" id="buscartext" name="buscar" autofocus placeholder="Nombre, Apellido o Dni..." class="form-control" />
+                <input type="submit" id="buscarbtn" class="btn btn-primary" value="Buscar" />
                 <a href="@Url.Action("RegistroUsuario","Account")" class="btn btn-info mr-2">Nuevo Usuario</a>
             }
         </div>

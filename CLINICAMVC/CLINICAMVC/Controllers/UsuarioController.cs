@@ -9,7 +9,7 @@ using System.Web.Mvc;
 namespace CLINICAMVC.Controllers
 {
     [Authorize]
-    [PorxAuthorize(Roles = "Administrador")]
+    [PorxAuthorize(Roles = "Administrador,Administrador")]
     public class UsuarioController : Controller
     {
         private readonly ApplicationDbContext _context = ApplicationDbContext.Create();

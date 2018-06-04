@@ -28,7 +28,7 @@ namespace CLINICAMVC.Models
             try
             {
                 if (especialidad == null)return ListarEspecialidad();
-                var espe = Context.Especialidad.Where(e => e.DesEspecialidad.Contains(especialidad)).ToList();
+                var espe = Context.Especialidad.Where(e => e.DesEspecialidad.ToUpper().Contains(especialidad.ToUpper())).ToList();
                 return espe;
                 
             }

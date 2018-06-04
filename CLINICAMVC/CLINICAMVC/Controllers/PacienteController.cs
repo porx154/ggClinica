@@ -9,7 +9,7 @@ using System.Web.Mvc;
 namespace CLINICAMVC.Controllers
 {
     [Authorize]
-    [PorxAuthorize(Roles = "Medico")]
+    [PorxAuthorize(Roles = "Medico,Administrador")]
     public class PacienteController : Controller
     {
         private readonly ApplicationDbContext _context = ApplicationDbContext.Create();
@@ -73,7 +73,7 @@ namespace CLINICAMVC.Controllers
         {
             var pp = new PacientePorx(_context);
             var historial = pp.BuscarPacienteID(id);
-            if (historial == null) return RedirectToAction("ConsultaHistorialPaciente", "Paciente");
+            if (historial == null) return RedirectToAction("ConsultarHistorialPaciente", "Paciente");
             return View(historial);
         }
         [HttpPost]
@@ -86,6 +86,7 @@ namespace CLINICAMVC.Controllers
                 if (!actpaciente)
                 {
                     ViewBag.Error = "No se pudo Actualizar";
+                    return View(actpaciente);
                 }
                 return RedirectToAction("ConsultarHistorialPaciente", "Paciente");
             }

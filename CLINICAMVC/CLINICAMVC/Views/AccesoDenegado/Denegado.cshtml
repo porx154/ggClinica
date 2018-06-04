@@ -1,0 +1,28 @@
+﻿@using Microsoft.AspNet.Identity
+@{
+
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Acceso Denegado</title>
+    @Styles.Render("~/bundles/css")
+    <link rel="shortcut icon" href="~/Content/images/favicon.png" />
+</head>
+<body>
+    <div class="row">
+        <div class="content-wrapper full-page-wrapper d-flex align-items-center text-center error-page">
+            <div class="col-lg-6 mx-auto">
+                <h1 class="display-1 mb-0">401</h1>
+                <h2 class="mb-4">Acceso Denegado</h2>
+                <p>El usuario @User.Identity.GetUserName() no tiene acceso a este sitio</p>
+                <a class="btn btn-primary mt-5 btn-rounded btn-lg" href="@Url.Action("Inicio","Menu")">Volver al Inicio</a>
+            </div>
+        </div>
+    </div>
+@Scripts.Render("~/bundles/js")
+</body>
+
+</html>

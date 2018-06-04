@@ -39,8 +39,8 @@
             @using (Html.BeginForm())
             {
 
-                <input type="text" name="buscar" class="form-control" autofocus placeholder="Nombre, Apellido o DNI..." />
-                <input type="submit" value="Buscar" class="btn btn-primary" />
+                <input id="buscarPaciente" type="text" name="buscar" class="form-control" autofocus placeholder="Nombre, Apellido o DNI..." />
+                <input id="buscarPacientebtn" type="submit" value="Buscar" class="btn btn-primary" />
                 <a href="@Url.Action("CrearPaciente","Paciente")" class="btn btn-info mr-2">Nuevo Historial</a>
             }
         </div>

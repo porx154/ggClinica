@@ -39,8 +39,8 @@
             </div>
             @using (Html.BeginForm())
             {
-                <input type="text" class="form-control" name="especialidad" placeholder="Nombre de la Especialidad..." />
-                <input type="submit" value="Buscar" class="btn btn-primary" />
+                <input id="buscaEspecialidad" type="text" class="form-control" name="especialidad" placeholder="Nombre de la Especialidad..." />
+                <input id="buscarEspecialidadbtn" type="submit" value="Buscar" class="btn btn-primary" />
                 <a href="@Url.Action("CrearEspecialidad","Especialidad")" class="btn btn-info mr-2">Nueva Especialidad</a>
             }
         </div>

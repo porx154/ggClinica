@@ -1,0 +1,10 @@
+D:\CLINICAMVC\SeleniumClinicaPorx\bin\Debug\SeleniumClinicaPorx.exe.config
+D:\CLINICAMVC\SeleniumClinicaPorx\bin\Debug\SeleniumClinicaPorx.exe
+D:\CLINICAMVC\SeleniumClinicaPorx\bin\Debug\SeleniumClinicaPorx.pdb
+D:\CLINICAMVC\SeleniumClinicaPorx\bin\Debug\WebDriver.dll
+D:\CLINICAMVC\SeleniumClinicaPorx\bin\Debug\WebDriver.Support.dll
+D:\CLINICAMVC\SeleniumClinicaPorx\bin\Debug\WebDriver.xml
+D:\CLINICAMVC\SeleniumClinicaPorx\bin\Debug\WebDriver.Support.xml
+D:\CLINICAMVC\SeleniumClinicaPorx\obj\Debug\SeleniumClinicaPorx.csprojResolveAssemblyReference.cache
+D:\CLINICAMVC\SeleniumClinicaPorx\obj\Debug\SeleniumClinicaPorx.exe
+D:\CLINICAMVC\SeleniumClinicaPorx\obj\Debug\SeleniumClinicaPorx.pdb

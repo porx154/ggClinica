@@ -39,14 +39,14 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        @Html.LabelFor(model => model.NomEmpleado, htmlAttributes: new { @class = "control-label col-md-2" })
+                        @Html.LabelFor(model => model.NomEmpleado, htmlAttributes: new { @class = "control-label col-md-4" })
                         <div class="col-md-10">
                             @Html.EditorFor(model => model.NomEmpleado, new { htmlAttributes = new { @class = "form-control " } })
                             @Html.ValidationMessageFor(model => model.NomEmpleado, "", new { @class = "text-danger" })
                         </div>
                     </div>
                     <div class="form-group">
-                        @Html.LabelFor(model => model.ApeEmpleado, htmlAttributes: new { @class = "control-label col-md-2" })
+                        @Html.LabelFor(model => model.ApeEmpleado, htmlAttributes: new { @class = "control-label col-md-4" })
                         <div class="col-md-10">
                             @Html.EditorFor(model => model.ApeEmpleado, new { htmlAttributes = new { @class = "form-control " } })
                             @Html.ValidationMessageFor(model => model.ApeEmpleado, "", new { @class = "text-danger" })
@@ -114,7 +114,7 @@
                     <div class="form-group"></div>
                     <div class="form-group">
                         <div class="col-md-offset-2 col-md-10">
-                            <input type="submit" value="Guardar" class="btn btn-primary mr-2" />
+                            <input id="guardarusuario" type="submit" value="Guardar" class="btn btn-primary mr-2" />
                             <a href="@Url.Action("ConsultaUsuario","Usuario")" class="btn btn-danger mr-2">Cancelar</a>
                         </div>
                     </div>

@@ -20,23 +20,23 @@ namespace CLINICAMVC.Controllers
         {
             return View();
         }
-        [PorxAuthorize(Roles = "Recepcionista-Admision")]
+        [PorxAuthorize(Roles = "Recepcionista-Admision,Administrador")]
         public ActionResult MenuCitas()
         {
             return View();
         }
-        [PorxAuthorize(Roles ="Medico")]
+        [PorxAuthorize(Roles = "Medico,Administrador")]
         public ActionResult MenuHistorialPaciente()
         {
             return View();
         }
 
-        [PorxAuthorize(Roles = "Jefe-Personal")]
+        [PorxAuthorize(Roles = "Jefe-Personal,Administrador")]
         public ActionResult MenuConsultorioMedico()
         {
             return View();
         }
-        [PorxAuthorize(Roles = "Jefe-Personal")]
+        [PorxAuthorize(Roles = "Jefe-Personal,Administrador")]
         public ActionResult MenuEspecialidad()
         {
             return View();
